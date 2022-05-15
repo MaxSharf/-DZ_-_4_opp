@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Flat">
+      <UniqueIdentifier>{6063ba93-e1a0-4da8-abb9-59ed16f0946a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Person">
+      <UniqueIdentifier>{a237aae1-c295-41cd-b82f-602fb3ecb378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="House">
+      <UniqueIdentifier>{580a7e97-edf0-4f5a-bb1c-0518b6ed7c5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Flat.cpp">
+      <Filter>Flat</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Person</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>House</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Flat.h">
+      <Filter>Flat</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Person</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>House</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
